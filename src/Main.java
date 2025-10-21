@@ -8,5 +8,6 @@ public class Main {
         hasil = angkaPertama + angkaKedua;
 
         System.out.println("Hasil penjumlahan " + angkaPertama + " + " + angkaKedua + " adalah: " + hasil);
+        System.out.println("Hasil dari penjumlahan");
     }
 }
