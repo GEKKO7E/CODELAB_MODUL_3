@@ -1,7 +1,9 @@
 PROYEK KALKULATOR SEDERHANA (Java)
+
 Proyek ini adalah implementasi program kalkulator yang sangat dasar menggunakan bahasa Java. Tujuannya adalah untuk mendemonstrasikan konsep variabel, operasi aritmatika, dan cara kerja Git commit.
 
 KODE PROGRAM (Kalkulator.java)
+
 // Nama file: Kalkulator.java
 public class Kalkulator {
 
@@ -25,9 +27,11 @@ Kondisi Proyek Sebelum Commit
 Ketika Anda baru saja membuat file Kalkulator.java atau memodifikasinya, proyek Anda berada dalam keadaan "belum di-commit".
 
 TAMPILAN DI IntelliJ IDEA:
-Nama file Kalkulator.java akan berwarna merah (jika file baru) atau biru (jika file dimodifikasi).
-File tersebut akan muncul di bawah daftar "Changes" atau "Unversioned Files" di dalam jendela Commit (Ctrl + K).
-Status di Terminal (git status):
+
+*Nama file Kalkulator.java akan berwarna merah (jika file baru) atau biru (jika file dimodifikasi).
+*File tersebut akan muncul di bawah daftar "Changes" atau "Unversioned Files" di dalam jendela Commit (Ctrl + K).
+
+STATUS DI TERMINAL (git status):
 Jika Anda menjalankan git status di terminal, outputnya akan terlihat seperti ini:
 
 On branch master
@@ -39,12 +43,14 @@ nothing added to commit but untracked files present (use "git add" to track)
 Ini artinya Git melihat ada file baru, tetapi file tersebut belum "didaftarkan" untuk disimpan dalam riwayat.
 
 KONDISI PROYEK SESUDAH COMMIT
+
 Setelah Anda menulis pesan commit (misalnya, "Menambahkan program kalkulator") dan menekan tombol Commit, Anda telah berhasil menyimpan sebuah "foto" dari kondisi proyek Anda saat itu.
 
 TAMPILAN DI IntelliJ IDEA:
-Nama file Kalkulator.java akan kembali berwarna putih (normal).
+*Nama file Kalkulator.java akan kembali berwarna putih (normal).
 Daftar "Changes" di jendela Commit akan menjadi kosong.
-Status di Terminal (git status):
+
+STATUS DI TERMINAL (git status):
 Jika Anda menjalankan git status lagi, outputnya akan berubah menjadi:
 
 On branch master
